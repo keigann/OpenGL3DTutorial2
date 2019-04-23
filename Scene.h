@@ -30,6 +30,10 @@ public:
 	virtual void Show();
 	virtual void Hide();
 
+	const std::string& Name() const;
+	bool IsActive() const;
+	bool IsVisible() const;
+
 private:
 	std::string name;
 	bool isVisible = true;
